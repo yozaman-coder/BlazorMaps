@@ -76,7 +76,8 @@ namespace FisSst.BlazorMaps.Examples.Pages
                 SubOptions = new MapSubOptions()
                 {
                     Attribution = "&copy; <a lhref='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
-                    MaxZoom = 18,
+                    MaxZoom = 25,
+                    MaxNativeZoom = 18,
                     TileSize = 512,
                     ZoomOffset = -1,
                 }
