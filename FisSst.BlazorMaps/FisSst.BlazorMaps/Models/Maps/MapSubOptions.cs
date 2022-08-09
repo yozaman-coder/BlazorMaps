@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FisSst.BlazorMaps
+﻿namespace FisSst.BlazorMaps
 {
-    public class TileLayerOptions
+    /// <summary>
+    /// It is a subset of MapOptions.
+    /// </summary>
+    public class MapSubOptions
     {
         public string Id { get; set; }
         public string Attribution { get; set; }

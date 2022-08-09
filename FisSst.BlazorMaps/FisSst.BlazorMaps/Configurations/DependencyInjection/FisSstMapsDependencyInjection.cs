@@ -26,7 +26,6 @@ namespace FisSst.BlazorMaps.DependencyInjection
             services.AddTransient<IPolygonFactory, PolygonFactory>();
             services.AddTransient<ICircleMarkerFactory, CircleMarkerFactory>();
             services.AddTransient<ICircleFactory, CircleFactory>();
-            services.AddTransient<ITileLayerFactory, TileLayerFactory>();
         }
 
         private static void AddJsInterops(IServiceCollection services)
